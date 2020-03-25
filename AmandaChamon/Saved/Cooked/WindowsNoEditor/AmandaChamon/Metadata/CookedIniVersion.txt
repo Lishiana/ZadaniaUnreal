@@ -1158,7 +1158,7 @@ Windows.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:TextureForm
 Windows.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:TextureFormatPriority_ASTC:0=0.9
 Windows.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:bEnableNewKeyboard:0=True
 Windows.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:bAndroidVoiceEnabled:0=false
-Windows.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:bBuildWithHiddenSymbolVisibility:0=false
+Windows.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:bBuildWithHiddenSymbolVisibility:0=True
 Windows.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:bSaveSymbols:0=false
 Windows.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:bAllowControllers:0=True
 Windows.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:bAllowIMU:0=True
@@ -1425,6 +1425,7 @@ Windows.Engine:/Script/AppleARKit.AppleARKitSettings:bEnableLiveLinkForFaceTrack
 Windows.Engine:/Script/AppleARKit.AppleARKitSettings:LiveLinkPublishingPort:0=11111
 Windows.Engine:/Script/Engine.RendererSettings:r.GPUCrashDebugging:0=false
 Windows.Engine:/Script/Engine.RendererSettings:r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0=True
+Windows.Engine:/Script/Engine.RendererSettings:r.MobileNumDynamicPointLights:0=0
 Windows.Engine:Messaging:bAllowDelayedMessaging:0=false
 Windows.Engine:InstalledPlatforms:HasInstalledPlatformInfo:0=true
 Windows.Engine:InstalledPlatforms:InstalledPlatformConfigurations:0=(PlatformName="Win64", Configuration="Development", PlatformType="Editor", bCanBeDisplayed=False)
@@ -1671,7 +1672,7 @@ Windows.Input:/Script/EngineSettings.ConsoleSettings:AutoCompleteCVarColor:0=(B=
 Windows.Input:/Script/EngineSettings.ConsoleSettings:AutoCompleteFadedColor:0=(R=100,G=100,B=100,A=255)
 Windows.Game:StartupActions:bAddPacks:0=False
 Windows.Game:StartupActions:InsertPack:0=(PackSource="StarterContent.upack",PackName="StarterContent")
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:StagingDirectory:0=(Path="D/ZadaniaUnreal/Builds")
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:StagingDirectory:0=(Path="C/Users/Lishiana/Desktop")
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:BuildConfiguration:0=PPBC_Development
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:FullRebuild:0=False
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:UsePakFile:0=True
@@ -1681,9 +1682,9 @@ Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:IncludePrerequisites:0=Tr
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:IncludeCrashReporter:0=False
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:InternationalizationPreset:0=English
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:DefaultCulture:0=en
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bSkipEditorContent:0=False
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bSharedMaterialNativeLibraries:0=False
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bShareMaterialShaderCode:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bSkipEditorContent:0=True
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bSharedMaterialNativeLibraries:0=True
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bShareMaterialShaderCode:0=True
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bSkipMovies:0=False
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:Build:0=IfProjectHasCode
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:ForDistribution:0=False
@@ -1704,7 +1705,7 @@ Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:ApplocalPrerequisitesDire
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:CulturesToStage:0=en
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bCookAll:0=False
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bCookMapsOnly:0=True
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bCompressed:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bCompressed:0=True
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bEncryptIniFiles:0=False
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bEncryptPakIndex:0=False
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:GenerateEarlyDownloaderPakFile:0=False
